@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container { 
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+} 
+
+.size{
+    width: 100px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid white;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    color:white
+}
+.d {
+    background: linear-gradient(to left, #f12711, #f5af19);
+    color: white;
+}
+
+.d:hover{
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: black;
+}
+
+.i {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.i:hover{
+    background: linear-gradient(to left, #8a2387, #e94057, #f27121);
+    color: black;
+}
+
+.n {
+    background: linear-gradient(to left, #8a2387, #e94057, #f27121);
+}
+
+.n:hover{
+    background: linear-gradient(to left, #009fff, #ec2f4b);
+    color: black;
+}
+
+.a {
+    background: linear-gradient(to left, #009fff, #ec2f4b);
+}
+
+.a:hover{
+    background: linear-gradient(to left, #00f260, #0575e6);
+    color: black;
+}
+
+.r {
+    background: linear-gradient(to left, #00f260, #0575e6);
+}
+
+.r:hover{
+    background: linear-gradient(to right, #00c3ff, #ffff1c);
+    color: black;
+}
+
+.a1 {
+    background: linear-gradient(to right, #00c3ff, #ffff1c); 
+}
+
+.a1:hover{
+    background: linear-gradient(to left, #f12711, #f5af19);
+    color: black;
+}
